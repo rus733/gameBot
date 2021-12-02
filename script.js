@@ -3,7 +3,7 @@
 //"Загадывание случайного числа от 1 до 100"
 
 function gameBot() {
-  let randomNum = Math.floor(Math.random() * 100) + 1;
+  const randomNum = Math.floor(Math.random() * 100) + 1;
 
   const isNumber = function (num) {
     return !isNaN(parseFloat(num)) && isFinite(num);
