@@ -3,7 +3,7 @@
 //"Загадывание случайного числа от 1 до 100"
 
 function gameBot() {
-  let randomNum = parseInt(Math.random() * 100);
+  let randomNum = Math.floor(Math.random() * 100) + 1;
 
   const isNumber = function (num) {
     return !isNaN(parseFloat(num)) && isFinite(num);
@@ -32,3 +32,13 @@ function gameBot() {
   console.log(inputNumber());
 }
 gameBot();
+
+//const min = 1;
+//const max = 100;
+//let randomNum = function (1, 100) {
+// min = Math.ceil(min);
+//max = Math.floor(max);
+//return Math.floor(Math.random() * (max - min + 1)) + min; //Максимум и минимум включаются
+//};
+
+//let randomNum = parseInt(Math.random() * 100);
