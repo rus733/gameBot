@@ -2,14 +2,13 @@
 //игровой бот.
 //"Загадывание случайного числа от 1 до 100"
 
-let randomNum = 50;
-
 const isNumber = function (num) {
   return !isNaN(parseFloat(num)) && isFinite(num);
 };
 
 function inputNumber() {
-  let randomNum = 50;
+  let randomNum = parseInt(Math.random() * 100);
+
   let userNum = prompt("Угадай число от 1 до 100");
 
   if (userNum === null) {
