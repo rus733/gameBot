@@ -41,4 +41,8 @@ gameBot();
 //return Math.floor(Math.random() * (max - min + 1)) + min; //Максимум и минимум включаются
 //};
 
-//let randomNum = parseInt(Math.random() * 100);
+/*
+const randomNum = Math.floor(Math.random() * 100) + 1;
+const randomNum1 = parseInt(Math.random() * 100) + 1;
+console.log(randomNum1 === randomNum);
+*/
